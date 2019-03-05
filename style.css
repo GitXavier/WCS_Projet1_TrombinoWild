@@ -1,0 +1,91 @@
+
+
+
+
+/* banniere */
+
+.home-banniere {
+	position: relative;
+	padding-bottom: 38%;
+	-border: yellow 3px solid;
+}
+
+.home-img-banniere {
+	position: absolute;
+	width: 100%;
+	-border: 3px solid blue;
+}
+
+.home-img-banniere-noir {
+	position: absolute;
+	width: 100%;
+	opacity: 0.6;
+	-border: green 4px solid;
+}
+
+.home-texte-banniere {
+	position: absolute;
+	color: white; 
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	-border: 1px red solid;
+}
+
+.home-texte {
+	position: static;
+	margin: 10%;
+	text-align: justify;
+}
+
+/* Body Site */
+
+.home-bloc-texte {
+	display: flex;
+}
+
+.home-texte-image-one {
+	margin-top: 10px;
+
+}
+
+
+/* Footer */
+
+.footer-bloc {
+	position: relative;
+	width: 100%;
+	background-color: #5A5A5A;
+	-border: 3px green solid;
+}
+
+.footer-face-img-one {
+	margin-top: -100px;
+	margin-left: 40px;
+	border-radius: 50%;
+	-border: 3px blue solid;
+}
+
+.footer-face-img-two {
+	text-align: right;
+	-border: 2px solid blue;
+}
+
+.footer-lien {
+	position: absolute;
+	width: 100%;
+	top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	-border: red solid 3px;
+}
+
+.footer-lien a {
+	padding: 20px 0px 0px 20px;
+	color: white;
+}
+
+.footer-face-img-two {
+	margin-right: 15%; 
+}
