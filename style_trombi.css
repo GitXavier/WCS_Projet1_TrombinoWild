@@ -1,0 +1,57 @@
+.row.faces .rounded-circle{
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.row.faces .rounded-circle::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    transition: opacity 0.6s;
+}
+
+
+.row.faces .rounded-circle.blue::after{
+    background-color: blue;
+}
+
+.row.faces .rounded-circle.yellow::after{
+    background-color: yellow;
+}
+
+.row.faces .rounded-circle.green::after{
+    background-color: green;
+}
+
+.row.faces .rounded-circle.lime::after{
+    background-color: lime;
+}
+
+.row.faces .rounded-circle.fuchsia::after{
+    background-color: fuchsia;
+}
+
+.row.faces .rounded-circle.aqua::after{
+    background-color: aqua;
+}
+
+.row.faces .rounded-circle.teal::after{
+    background-color: teal;
+}
+
+.row.faces .rounded-circle:hover::after{
+    opacity: 0;
+}
+
+
+ 
+img:hover {
+    display: hidden;
+  
+}
