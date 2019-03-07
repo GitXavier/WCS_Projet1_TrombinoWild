@@ -1,8 +1,75 @@
+/* ========================================= Site ==================================================================*/ 
+
+
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('fonts/VarelaRound-Regular-webfont.eot');
+    src: url('fonts/VarelaRound-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VarelaRound-Regular-webfont.woff2') format('woff2'),
+         url('fonts/VarelaRound-Regular-webfont.woff') format('woff'),
+         url('fonts/VarelaRound-Regular-webfont.ttf') format('truetype'),
+         url('fonts/VarelaRound-Regular-webfont.svg#varela_roundregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
 
 
 
 
-/* banniere */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================= NavBar =====================================================================*/ 
+
+.navbar{
+    opacity: 0.9;
+
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.contact-navbar {
+    font-family: 'Oswald', sans-serif;
+    font-size:24px;
+    color: #f79899;
+}
+
+.contact-navbar:hover {
+    color: #f79899;
+    text-decoration: none;
+}
+
+.color-boutton-contact{
+    color: #f79899;
+    border-color: #f79899;
+}
+
+.color-boutton-contact:hover{
+    background-color: #f79899;
+    border-color: #f79899;
+}
+
+/* ========================================= Page Home ==================================================================*/ 
+/* ========================================= Banniere ===================================================================*/
 
 .home-banniere {
 	position: relative;
@@ -16,28 +83,16 @@
 	-border: 3px solid blue;
 }
 
-.home-img-banniere-noir {
-	position: absolute;
-	width: 100%;
-	opacity: 0.6;
-	-border: green 4px solid;
-}
-
-.home-texte-banniere {
-	position: absolute;
-	color: white; 
-	width: 100%;
-	color: white;
-	text-align: center;
-	padding-top: 20%;
-	-border: 1px red solid;
-}
+/* ========================================= Page Home ==================================================================*/
 
 .home-texte {
 	position: static;
-	margin: 10%;
+	margin: 6% 10% 8% 10%;
 	text-align: justify;
+	font-family: varela_roundregula, sans-serif;
+	font-size: 20px;
 }
+
 
 /* Body Site */
 
@@ -45,47 +100,261 @@
 	display: flex;
 }
 
-.home-texte-image-one {
-	margin-top: 10px;
+.home-img-one-div {
+		overflow: hidden;
+}
 
+.home-texte-image-one {
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+/* ========================================= FORMULAIRE DE CONTACT ==================================================================*/
+
+
+.form-group-contact{
+    margin-top:3%;
+    margin-left:6%;
+}
+
+.contact-button{
+    width: auto;;
+    margin-left:6%;
+    margin-top: 2%;
+}
+
+.btn-contact{
+    background-color: #f79899;
+    border-color:white;
+}
+
+.btn-contact:hover{
+    background-color: white;
+    border-color: #f79899;
+    color: #f79899;
+}
+
+.position-maps {
+    width:100%;
+    height: 97%;
+    margin-left: 4%;
+    margin-top:2%;
+    left:1%;
+}
+
+.conteneur-contact {
+	width: 100%;
+	margin-bottom: 6%;
+	margin-top: 2%;
+}
+
+.contact-bloc {
+	width: 95%;
 }
 
 
-/* Footer */
+
+/* ========================================= Page Trombi ==================================================================*/
+/* images rondes, display et couleur */
+
+.row.faces .rounded-circle{
+    margin-top: 30px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.row.faces .rounded-circle::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: #f79899;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    transition: opacity 0.6s;
+}
+
+.container{
+    margin-bottom: 30px;
+}
+
+
+/* COULEURS */
+
+.row.faces .rounded-circle.blue-sky::after{
+    background-color: #a5ebf3;
+}
+
+.row.faces .rounded-circle.yellow-pale::after{
+    background-color: #f3eda5;
+}
+
+.row.faces .rounded-circle.green-pale::after{
+    background-color: #75e8be;
+}
+
+.row.faces .rounded-circle.turq::after{
+    background-color: #75dfe8;
+}
+
+.row.faces .rounded-circle.violet-blue::after{
+    background-color: #6368d4;
+}
+
+.row.faces .rounded-circle.yellow-green-pale::after{
+    background-color: #e1e875;
+}
+
+.row.faces .rounded-circle.teal::after{
+    background-color: teal;
+}
+
+.row.faces .rounded-circle.blue-pale::after{
+    background-color: #75abe8;
+}
+
+.row.faces .rounded-circle.green-past::after{
+    background-color: #d8f3a5;
+}
+
+.row.faces .rounded-circle.pink-pale::after{
+    background-color: #ff82e0;
+}
+
+.row.faces .rounded-circle.violet-pale::after{
+    background-color: #c69ffb;
+}
+
+/* effet Hover  */
+
+.row.faces .rounded-circle:hover::after{
+    opacity: 0;
+}
+
+
+
+
+
+/* ========================================= Footer ====================================================================*/ 
 
 .footer-bloc {
 	position: relative;
 	width: 100%;
-	background-color: #5A5A5A;
+	background-color: #F36C6C;
 	-border: 3px green solid;
 }
 
 .footer-face-img-one {
-	margin-top: -100px;
+	margin-top: -80px;
 	margin-left: 40px;
 	border-radius: 50%;
 	-border: 3px blue solid;
-}
 
-.footer-face-img-two {
-	text-align: right;
-	-border: 2px solid blue;
+
 }
 
 .footer-lien {
 	position: absolute;
 	width: 100%;
 	top: 20px;
-	margin: 0 auto;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	-border: red solid 3px;
 }
 
-.footer-lien a {
-	padding: 20px 0px 0px 20px;
+.footer-lien-icon {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-lien-icon img {
+	padding: 0px 10px 0px 10px;
+}
+
+.footer-lien-texte a {
 	color: white;
 }
 
+.footer-lien-texte span {
+	padding: 0px 20px 0px 20px;
+}
+
+
+.footer-face-img-one-two {
+	margin-right: 10%; 
+	border-radius: 50%;
+	margin-bottom: -80px; 
+	text-align: right;
+}
+
 .footer-face-img-two {
-	margin-right: 15%; 
+	text-align: right;
+	overflow: hidden;
+}
+
+/* ========================================= Media Queries ==================================================================*/ 
+
+@media screen and (max-width : 992px){
+    .footer-face-img-one{
+       visibility: hidden;
+       width: 0px;
+       }
+
+	.footer-face-img-one-two {
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.home-texte-image-one {
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.footer-bloc {
+		height: 100px; 
+	}
+
+	.footer-lien-icon img {
+	padding: 40px 20px 20px 0px;
+	}
+
+	.footer-bloc {
+		height: 130px;
+		overflow: hidden;
+	}
+
+}
+
+@media screen and (max-width : 760px) {
+	.footer-lien{
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-bloc {
+		height: 190px;  
+	}
+
+	.footer-lien-texte span {
+		visibility: hidden;
+		padding: 0px;
+	}
+
+	.footer-lien-texte {
+		padding: 0px;
+	}
+
+	.footer-lien-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+
+	.footer-lien-icon img {
+	padding: 5px 0px 5px 10px;
+
+}
+
 }
