@@ -1,0 +1,37 @@
+/* NAVBAR */
+
+.navbar{
+    opacity: 0.7;
+    background-image: url(images/bg_dark.png)
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.contact-navbar {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size:24px;
+}
+
+
+/* FORMULAIRE DE CONTACT */
+
+.form-group{
+    align-content: center;
+    width:90%;
+    margin-top:3%;
+    margin-left: 5%;
+}
+
+.contact-button{
+    width: 90%;
+    margin: auto;
+}
+
+.btn-primary{
+    background-color:rgb(50,80,120)
+}
