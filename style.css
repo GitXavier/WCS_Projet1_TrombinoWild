@@ -187,13 +187,18 @@ h3{
 /* ========================================= Page Trombi ==================================================================*/
 /* images rondes, display et couleur */
 
-.row.faces .rounded-circle{
+.faces {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.faces .rounded-circle{
     margin-top: 30px;
     display: block;
     overflow: hidden;
     position: relative;
 }
-.row.faces .rounded-circle::after{
+.faces .rounded-circle::after{
     content: " ";
     width: 100%;
     height: 100%;
@@ -212,53 +217,53 @@ h3{
 
 /* COULEURS */
 
-.row.faces .rounded-circle.blue-sky::after{
+.faces .rounded-circle.blue-sky::after{
     background-color: #a5ebf3;
 }
 
-.row.faces .rounded-circle.yellow-pale::after{
+.faces .rounded-circle.yellow-pale::after{
     background-color: #f3eda5;
 }
 
-.row.faces .rounded-circle.green-pale::after{
+.faces .rounded-circle.green-pale::after{
     background-color: #75e8be;
 }
 
-.row.faces .rounded-circle.turq::after{
+.faces .rounded-circle.turq::after{
     background-color: #75dfe8;
 }
 
-.row.faces .rounded-circle.violet-blue::after{
+.faces .rounded-circle.violet-blue::after{
     background-color: #6368d4;
 }
 
-.row.faces .rounded-circle.yellow-green-pale::after{
+.faces .rounded-circle.yellow-green-pale::after{
     background-color: #e1e875;
 }
 
-.row.faces .rounded-circle.teal::after{
+.faces .rounded-circle.teal::after{
     background-color: teal;
 }
 
-.row.faces .rounded-circle.blue-pale::after{
+.faces .rounded-circle.blue-pale::after{
     background-color: #75abe8;
 }
 
-.row.faces .rounded-circle.green-past::after{
+.faces .rounded-circle.green-past::after{
     background-color: #d8f3a5;
 }
 
-.row.faces .rounded-circle.pink-pale::after{
+.faces .rounded-circle.pink-pale::after{
     background-color: #ff82e0;
 }
 
-.row.faces .rounded-circle.violet-pale::after{
+.faces .rounded-circle.violet-pale::after{
     background-color: #c69ffb;
 }
 
 /* effet Hover  */
 
-.row.faces .rounded-circle:hover::after{
+.faces .rounded-circle:hover::after{
     opacity: 0;
 }
 
