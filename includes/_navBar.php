@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="card.php">Face</a>
+            <a class="nav-item nav-link" href="trombi.php">Face</a>
             <a class="nav-item nav-link" href="contact.php">Contact </a>
 
         </div>

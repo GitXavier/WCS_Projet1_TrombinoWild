@@ -8,3 +8,4 @@ foreach ($lines as $listStudent => $data)
 {
     $arrayStudents[$listStudent] = str_getcsv($data);
 }
+
