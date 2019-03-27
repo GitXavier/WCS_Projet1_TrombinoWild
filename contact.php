@@ -5,7 +5,7 @@
           <h6 class="transparent">.</h6>
           <div class="conteneur-contact">
               <div class="row">
-                  <form class="col-12 col-md-6">
+                  <form method="post" class="col-12 col-md-6">
                       <div class="form-group-contact">
                           <label for="exampleFormControlInput1">Last Name</label>
                           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Williams">

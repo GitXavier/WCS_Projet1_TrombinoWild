@@ -1,6 +1,6 @@
 <?php include 'includes/_head.php'; ?>
 <?php include 'includes/_navBar.php'; ?>
-<?php include 'orders/import-students.php'; ?>
+<?php include '.old/import-students.php'; ?>
 
 <?php
 
@@ -49,16 +49,16 @@ foreach ($arrayStudents as $student => $dataStudent) {
 
                         <div class="col">
                             <a class="profil-reseau" href="https://fr.linkedin.com/" target="_blank"><img
-                                        src="images_trombi/link.png" alt="linkedin"></a>
+                                        src=".old/images_trombi/link.png" alt="linkedin"></a>
                         </div>
                         <div class="col">
                             <a class="profil-reseau" href="=https://fr-fr.facebook.com/" target="_blank"><img
-                                        src="images_trombi/fb.png" alt="facebook"></a>
+                                        src=".old/images_trombi/fb.png" alt="facebook"></a>
                         </div>
                         <div class="col">
                             <a class="profil-reseau" href="=https://twitter.com/login?lang=fr
 
-                            " target="_blank"><img src="images_trombi/twitter.png" alt="twiter"></a>
+                            " target="_blank"><img src=".old/images_trombi/twitter.png" alt="twiter"></a>
                         </div>
 
                     </div>

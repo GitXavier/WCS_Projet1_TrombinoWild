@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-bloc">
-        <img src="images_trombi/footer-face-xavier-01.png" class="footer-face-img-one" alt="Face">
+        <img src="img/footer-face-xavier-01.png" class="footer-face-img-one" alt="Face">
         <div class="footer-lien">
             <div class="footer-lien-texte"><a href="https://wildcodeschool.fr/" target="_blank">Wild Code School<span>|</span></a></div>
             <div class="footer-lien-texte"><a href="https://wildcodeschool.fr/bordeaux/" target="_blank">La Wild de Bordeaux<span>|</span></a></div>
@@ -10,21 +10,21 @@
 
         <div class="footer-lien-icon">
             <a href="https://www.facebook.com/wildcodeschool" target="_blank">
-                <img src="images_trombi/fb.png" alt="icon">
+                <img src="img/fb.png" alt="icon">
             </a>
 
             <a href="https://www.linkedin.com/school/wild-code-school?pathWildcard=10387519" target="_blank">
-                <img src="images_trombi/link.png" alt="icon">
+                <img src="img/link.png" alt="icon">
             </a>
 
             <a href="https://twitter.com/wildcodeschool" target="_blank">
-                <img src="images_trombi/twitter.png" alt="icon">
+                <img src="img/twitter.png" alt="icon">
             </a>
         </div>
 
 
         <div class="footer-face-img-two">
-            <img src="images_trombi/footer-face-ariak-01.png" class="footer-face-img-one-two" alt="Face">
+            <img src="img/footer-face-ariak-01.png" class="footer-face-img-one-two" alt="Face">
         </div>
     </div>
 </footer>
